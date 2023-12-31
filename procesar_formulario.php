@@ -14,6 +14,9 @@ $mensaje = $_POST['mensaje'];
 // Configurar PHPMailer
 $mail = new PHPMailer(true);
 
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 try {
     // Configurar el servidor SMTP de Gmail
     $mail->isSMTP();
@@ -35,6 +38,7 @@ try {
 
     // Enviar el correo
     $mail->send();
+    echo "Mensaje enviado correctamente";
 
     // Redirigir o mostrar un mensaje de éxito
     header("Location: index.html");
