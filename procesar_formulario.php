@@ -25,7 +25,7 @@ try {
     $mail->Username = 'ramiro.marcos.ck@gmail.com'; // Cambia esto por tu dirección de Gmail
     $mail->Password = 'Vafcob-sacji2-subkac'; // Cambia esto por tu contraseña o token de aplicación
     $mail->SMTPSecure = 'ssl';
-    $mail->Port = 587;
+    $mail->Port = 465;
 
     // Configurar remitente y destinatario
     $mail->setFrom($correo, $nombre);
