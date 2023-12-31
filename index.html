@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="icon" type="image/ico" href="blog.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">    
+</head>
+<body> 
+    <header class="blog__header">
+        <h1 class="blog__h1">BLOG RAMIRO MARCOS MORALES</h1>
+    </header>
+
+    <section id="acercademi">
+        <div class="inicio-class">
+            <p class="inicio-class__p">Nací un 23 de mayo de 2006 en la bulliciosa provincia de Buenos Aires, Argentina. Desde joven, siempre me sentí atraído por las luces parpadeantes de las pantallas y los misteriosos códigos que se escondían detrás. Mi curiosidad innata por la tecnología me llevó a explorar el fascinante mundo de la programación.</p>
+            <p class="inicio-class__p">A medida que crecía entre los rincones soleados de mi provincia natal, mi fascinación por las computadoras se intensificaba. Era como si cada línea de código fuera un enigma que solo yo podía resolver. Mi adolescencia se convirtió en un viaje de descubrimiento y autodescubrimiento, y supe que mi camino estaba ligado a la creación digital.</p>
+            <p class="inicio-class__p">Este año marcó un capítulo especial en mi vida. Después de superar desafíos académicos y celebrar logros significativos, finalmente completé mi etapa en la escuela secundaria. Fue un momento de reflexión y alegría, pero también de anticipación por lo que vendría después.</p>
+            <p class="inicio-class__p">Actualmente, estoy inmerso en un curso de programación, rodeado de líneas de código y desafíos creativos. Cada día es una nueva oportunidad para aprender, crecer y contribuir al emocionante mundo de la tecnología. Mis noches se llenan de algoritmos y proyectos, mientras construyo un puente hacia mi futuro en el vasto universo digital.</p>
+        </div>
+    </section>
+
+    <section id="horarios">
+        <div class="objetivos-class">
+            <h2 class="objetivos-class__h2">OBJETIVOS PRINCIPALES</h2>
+            <p class="objetivos-class__p">Como desarrollador Full Stack, mi principal objetivo es crear soluciones web innovadoras y eficientes que transformen la experiencia del usuario. Busco perfeccionar mis habilidades en el desarrollo front-end, asegurándome de crear interfaces intuitivas y atractivas que proporcionen una experiencia de usuario excepcional. Al mismo tiempo, me esfuerzo por dominar las tecnologías back-end, implementando sistemas robustos y escalables que impulsen el rendimiento y la seguridad de las aplicaciones. Mi compromiso se extiende a mantenerme al día con las últimas tendencias y tecnologías en el mundo del desarrollo web, asegurándome de aplicar las mejores prácticas y adoptar enfoques ágiles para ofrecer productos de alta calidad en tiempo y forma. Además, busco colaborar con equipos multidisciplinarios, donde pueda compartir conocimientos y aprender de otros expertos, contribuyendo así al crecimiento mutuo y al éxito de los proyectos en los que participo.</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <div class="me-class">
+            <h3 class="me-class__h3">CONTACTO</h3>
+            <div class="req-class">
+                <form class="req-class-form" method="POST" action="procesar_formulario.php">
+                    <label class="req-class-form__label" for="usuario">Nombre:</label><br>
+                    <input class="req-class-form__input" type="text" name="usuario" id="usuario" required><br>
+                    
+                    <label class="req-class-form__label" for="correo">Correo Electrónico:</label><br>
+                    <input class="req-class-form__input" type="email" name="correo" id="email" required><br>
+                
+                    <label class="req-class-form__label" for="mensaje">Mensaje:</label><br>
+                    <textarea class="req-class-form__textarea" name="mensaje" id="mensaje" rows="8" cols="50" required></textarea><br>
+
+                    <button class="req-class-form__button" type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>    
+    </section>
+
+    <br>
+</body>
+</html>
