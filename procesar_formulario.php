@@ -41,7 +41,7 @@ try {
     echo "Mensaje enviado correctamente";
 
     // Redirigir o mostrar un mensaje de éxito
-    header("Location: index.html");
+    header("Location: gracias.html");
     exit();
 } catch (Exception $e) {
     echo "Error al enviar el correo: {$mail->ErrorInfo}";
