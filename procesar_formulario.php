@@ -6,9 +6,9 @@ use Resend\Resend;
 $resend = Resend::client('re_ExowFWZf_KUxMBrKeeodehMZ2VLBMu1PV');
 
 // Datos del formulario
-$nombre = $_POST['usuario'];
-$correo = $_POST['correo'];
-$mensaje = $_POST['mensaje'];
+$nombre = $_GET['usuario'];
+$correo = $_GET['correo'];
+$mensaje = $_GET['mensaje'];
 
 try {
     // Enviar el correo a través de Resend
